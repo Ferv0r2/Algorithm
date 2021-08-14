@@ -8,3 +8,17 @@
 - Time complexity uses notation such as O(n)
 
 - The ord() is a method that replaces the value of the ASCII code.
+
+
+---
+
+### Week 2
+    : Learn the definition of a Class, Linked-List, Recursive function & Binary Search
+
+- The difference between array and Linked-list
+
+- Good data structure is different for each inquiry, insertion, and deletion.
+
+- How to use the recursive function.
+
+- How to code more efficiently
