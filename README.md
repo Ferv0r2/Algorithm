@@ -9,7 +9,6 @@
 
 - The ord() is a method that replaces the value of the ASCII code.
 
-
 ---
 
 ### Week 2
@@ -22,3 +21,12 @@
 - How to use the recursive function.
 
 - How to code more efficiently
+
+---
+
+### Week 3
+    : Learn the types of alignments and algorithm implementation
+
+- bubble_sort -> O(n^2), selection_sort -> O(n^2), insertion_sort  -> Best - O(n), Worst - O(n^2)
+
+- merge_sort -> Very Hard, Use Recursive function, Slicing array ★★★★★ -> O(n log n)
