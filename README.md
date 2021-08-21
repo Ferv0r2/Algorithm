@@ -25,8 +25,14 @@
 ---
 
 ### Week 3
-    : Learn the types of alignments and algorithm implementation
+    : Learn the types of alignments and algorithm implementation & Implement various data structures ( Stack, Queue )
 
 - bubble_sort -> O(n^2), selection_sort -> O(n^2), insertion_sort  -> Best - O(n), Worst - O(n^2)
 
 - merge_sort -> Very Hard, Use Recursive function, Slicing array ★★★★★ -> O(n log n)
+
+- Stack -> LastInFirstOut (LIFO) | push(data) | pop() | peek() | isEmpty()
+
+- Queue -> FirstInFirstOut (FIFO) | enqueue(data) | dequeue() | peek() | isEmpty()
+
+- Hash -> {key:value}, hash(data) |
