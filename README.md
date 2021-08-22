@@ -25,7 +25,7 @@
 ---
 
 ### Week 3
-    : Learn the types of alignments and algorithm implementation & Implement various data structures ( Stack, Queue )
+    : Learn the types of alignments and algorithm implementation & Implement various data structures ( Stack, Queue, Hash ) & Solve Problems
 
 - bubble_sort -> O(n^2), selection_sort -> O(n^2), insertion_sort  -> Best - O(n), Worst - O(n^2)
 
@@ -35,4 +35,6 @@
 
 - Queue -> FirstInFirstOut (FIFO) | enqueue(data) | dequeue() | peek() | isEmpty()
 
-- Hash -> {key:value}, hash(data) |
+- Hash -> Private data | {key:value} | hash(data)
+
+- Hash Table -> dict = {}
