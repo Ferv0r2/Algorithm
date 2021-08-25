@@ -38,3 +38,13 @@
 - Hash -> Private data | {key:value} | hash(data)
 
 - Hash Table -> dict = {}
+
+
+### Week 4 
+    : Learn NonLinear_Data Structure Tree, Heap, Graph, BFS, DFS
+
+- Tree -> Root Node, Level, Leaf Node, Child Node, Parent Node
+
+- Binary Tree -> Child Node is up to 2
+
+- Complete Binary Tree -> Child Node is up to 2, All levels must be full [ Max Node -> 2^(h+1)-1 | Max h -> O(log N) ]
