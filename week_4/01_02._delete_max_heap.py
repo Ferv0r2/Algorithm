@@ -14,9 +14,36 @@ class MaxHeap:
             else:
                 break
 
-    def delete(self):
-        # 구현해보세요!
-        return 8  # 8 을 반환해야 합니다.
+    def delete(self): # O(log n)
+
+        # 항상 루트 위치의 값만 제거
+        # 1. 루트 노드와 마지막 노드 자리 변경
+        # 2. 루트 노드 제거
+        # 3. 자리에 맞춰 이동
+
+        self.items[1], self.items[-1] = self.items[-1], self.items[1]
+        prev_max = self.items.pop()
+
+        cur_index = 1
+
+        while cur_index <= len(self.items) - 1:
+            left_child_node = cur_index * 2
+            right_child_node = cur_index * 2 + 1
+            max_index = cur_index
+
+            if left_child_node <= len(self.items) - 1 and self.items[left_child_node] > self.items[max_index]:
+                max_index = left_child_node
+
+            if right_child_node <= len(self.items) - 1 and self.items[right_child_node] > self.items[max_index]:
+                max_index = right_child_node
+
+            if max_index == cur_index:
+                break
+
+            self.items[cur_index], self.items[max_index] = self.items[max_index], self.items[cur_index]
+            cur_index = max_index
+
+        return prev_max
 
 
 max_heap = MaxHeap()

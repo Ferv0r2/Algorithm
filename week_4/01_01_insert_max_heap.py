@@ -3,8 +3,22 @@ class MaxHeap:
     def __init__(self):
         self.items = [None]
 
-    def insert(self, value):
-        # 구현해보세요!
+        # 1. 새 노드를 맨 끝에 추가
+        # 2. 넣은 새 노드를 부모와 비교, 부모보다 크면 자리 변경
+        # 3. Root 까지 반복
+
+    def insert(self, value): # O(log n)
+        self.items.append(value)
+        cur_index = len(self.items) - 1
+
+        while cur_index > 1:
+            parent_index = cur_index // 2
+            if self.items[cur_index] > self.items[parent_index]:
+                self.items[cur_index], self.items[parent_index] = self.items[parent_index], self.items[cur_index]
+                cur_index = parent_index
+            else:
+                break
+
         return
 
 
