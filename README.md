@@ -50,3 +50,5 @@
 - Complete Binary Tree -> Child Node is up to 2, All levels must be full [ Max Node -> 2^(h+1)-1 | Max h -> O(log N) ]
 
 - Heap -> Every Parent Node > Child Node | Max Heap (Root = Max) | Min Heap (Root = Min)
+
+- Graph -> BFS, DFS, Directed Graph, UnDirected Graoh | Adjacency Matrix (2D Array), Adjancency List (Linked_List)
