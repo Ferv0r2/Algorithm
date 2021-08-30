@@ -41,7 +41,7 @@
 
 
 ### Week 4 
-    : Learn NonLinear_Data Structure Tree, Heap, Graph, BFS, DFS
+    : Learn NonLinear_Data Structure Tree, Heap, Graph, Dynamic Programming
 
 - Tree -> Root Node, Level, Leaf Node, Child Node, Parent Node
 
@@ -51,4 +51,10 @@
 
 - Heap -> Every Parent Node > Child Node | Max Heap (Root = Max) | Min Heap (Root = Min)
 
-- Graph -> BFS, DFS, Directed Graph, UnDirected Graoh | Adjacency Matrix (2D Array), Adjancency List (Linked_List)
+- Graph -> DFS, BFS, Directed Graph, UnDirected Graoh | Adjacency Matrix (2D Array), Adjancency List (Linked_List)
+
+- DFS -> Depth First Search | Longest path, uses less space | Implement as Recursion & Stack 
+
+- BFS -> Breadth First Search | Shortest path, uses a lot of space | Implement as Queue
+
+- Dynamic Programming -> Memoization, Overlapping Subproblem | Implement Fibonaci Sequence
