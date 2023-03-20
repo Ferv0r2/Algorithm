@@ -1,60 +1,46 @@
-### Week 1
-    : Understanding Time, Space Complexity & Get the most alphabets
+# 알고리즘
 
-- Time complexity is more important than space complexity.
-
-- Time complexity should always be expressed in the worst case scenario.
-
-- Time complexity uses notation such as O(n)
-
-- The ord() is a method that replaces the value of the ASCII code.
+## 정복 리스트
 
 ---
 
-### Week 2
-    : Learn the definition of a Class, Linked-List, Recursive function & Binary Search
+### 누적합
 
-- The difference between array and Linked-list
+### 구현
 
-- Good data structure is different for each inquiry, insertion, and deletion.
+### 그래프이론
 
-- How to use the recursive function.
+### DFS, BFS
 
-- How to code more efficiently
+### 트리순회
 
----
+### 완전탐색
 
-### Week 3
-    : Learn the types of alignments and algorithm implementation & Implement various data structures ( Stack, Queue, Hash ) & Solve Problems
+### 백트래킹
 
-- bubble_sort -> O(n^2), selection_sort -> O(n^2), insertion_sort  -> Best - O(n), Worst - O(n^2)
+### 비트마스킹
 
-- merge_sort -> Very Hard, Use Recursive function, Slicing array ★★★★★ -> O(n log n)
+### 그리디
 
-- Stack -> LastInFirstOut (LIFO) | push(data) | pop() | peek() | isEmpty()
+### 라인스위핑
 
-- Queue -> FirstInFirstOut (FIFO) | enqueue(data) | dequeue() | peek() | isEmpty()
+### 투포인터
 
-- Hash -> Private data | {key:value} | hash(data)
+### LIS
 
-- Hash Table -> dict = {}
+### 이분탐색
 
+### DP
 
-### Week 4 
-    : Learn NonLinear_Data Structure Tree, Heap, Graph, Dynamic Programming
+DP는 다음의 가정 하에 사용할 수 있음
 
-- Tree -> Root Node, Level, Leaf Node, Child Node, Parent Node
+    1. 큰 문제를 작은 문제로 나눌 수 있음
+    2. 작은 문제에서 구한 정답은 그것을 포함하는 큰 문제에서도 동일함
 
-- Binary Tree -> Child Node is up to 2
+    기존의 재귀에서 구한 값을 Memoization 하는 것
 
-- Complete Binary Tree -> Child Node is up to 2, All levels must be full [ Max Node -> 2^(h+1)-1 | Max h -> O(log N) ]
+    시간 복잡도 ### O(n)
 
-- Heap -> Every Parent Node > Child Node | Max Heap (Root = Max) | Min Heap (Root = Min)
+### 최단거리
 
-- Graph -> DFS, BFS, Directed Graph, UnDirected Graoh | Adjacency Matrix (2D Array), Adjancency List (Linked_List)
-
-- DFS -> Depth First Search | Longest path, uses less space | Implement as Recursion & Stack 
-
-- BFS -> Breadth First Search | Shortest path, uses a lot of space | Implement as Queue
-
-- Dynamic Programming -> Memoization, Overlapping Subproblem | Implement Fibonaci Sequence
+### 펜윅트리
