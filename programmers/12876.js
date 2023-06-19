@@ -22,6 +22,22 @@ function solution(lines) {
   return result;
 }
 
+// 개선
+
+function solution(lines) {
+  let lineMap = new Array(200).fill(0);
+
+  for (let i = 0; i < 3; i++) {
+    let [left, right] = lines[i];
+
+    for (let j = left; j < right; j++) {
+      lineMap[j + 100] += 1;
+    }
+  }
+
+  return lineMap.filter((v) => v > 1).length;
+}
+
 // 모범 답안
 
 function solution(lines) {
